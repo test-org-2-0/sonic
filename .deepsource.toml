@@ -8,6 +8,9 @@ enabled = true
 name = "rust"
 enabled = true
 
+  [analyzers.meta]
+  msrv = "1.30.0"
+
 [[analyzers]]
 name = "javascript"
 enabled = true
